@@ -6,6 +6,10 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '63a2366e-76df-4975-95dd-32319b367764';
 
+const fakeFamous = ['www.baidu.com', 'www.taobao.com', 'www.news.cn', 'www.gov.cn', 'www.cas.ac.cn', 'www.cctv.com'];
+let fakehostf = fakeFamous[Math.floor(Math.random() * fakeFamous.length)];
+const sefl_proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
+
 let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
 
 //let sub = '';// 留空则显示原版内容
