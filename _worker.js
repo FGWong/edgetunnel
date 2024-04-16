@@ -4,7 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'def0f8cb-9ae6-5511-88af-080cfdcbaa13';
+let userID = 'e4f949dd-4b1d-48e9-8e30-f90029e105b2';
 
 const fakeFamous = ['www.baidu.com', 'www.taobao.com', 'www.news.cn', 'www.gov.cn', 'www.cas.ac.cn', 'www.cctv.com'];
 let fakehostf = fakeFamous[Math.floor(Math.random() * fakeFamous.length)];
